@@ -1,0 +1,42 @@
+* {
+	box-sizing: border-box;
+}
+
+.header {
+	padding: 20px;
+	background-color: lightblue;
+	text-align: center;
+	font-family: Calibri, Arial, Verdana, sans-serif;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: black;
+}
+
+.topnav a {
+	float: left;
+	padding: 14px 16px;
+	color: lightgreen;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	font-family: Arial, Verdana, sans-serif;
+}
+
+.topnav a.active {
+	background-color: blue;
+	color: white;
+}
+
+.topnav a:hover:not(.active) {
+	background-color: green;
+	color: white;
+}
+
+@media screen and (max-width: 650px) {
+.topnav a {
+	float: none;
+	width: 100%;
+	}
+}
